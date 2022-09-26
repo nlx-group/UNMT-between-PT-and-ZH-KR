@@ -9,7 +9,7 @@ from shlex import quote
 ROOT = os.path.dirname(os.path.abspath(__file__))
 THIRD_PARTY = ROOT + '/THIRD_PARTY'
 VECMAP = THIRD_PARTY + '/vecmap'
-WORDVEC = THIRD_PARTY + '/wordvec'
+WORDVEC = THIRD_PARTY + '/word2vec/wordvec'
 TOKENIZER = THIRD_PARTY + '/tokenizer'
 os.environ['PATH'] =  ':'.join([os.environ['PATH']])
 PHRASE2VEC = THIRD_PARTY + '/phrase2vec'
