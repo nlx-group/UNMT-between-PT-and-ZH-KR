@@ -10,3 +10,4 @@ cd undreamt
 cd ..
 git clone 'https://github.com/artetxem/vecmap.git'
 git clone 'https://github.com/rsennrich/subword-nmt.git'
+git clone 'https://github.com/catarinaferrei/word2vec'
