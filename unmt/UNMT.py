@@ -7,7 +7,7 @@ from shlex import quote
 #give path where this is
 #give vecmap path
 ROOT = os.path.dirname(os.path.abspath(__file__))
-THIRD_PARTY = ROOT + '/third-party'
+THIRD_PARTY = ROOT + '/THIRD_PARTY'
 VECMAP = THIRD_PARTY + '/vecmap'
 WORDVEC = THIRD_PARTY + '/wordvec'
 TOKENIZER = THIRD_PARTY + '/tokenizer'
