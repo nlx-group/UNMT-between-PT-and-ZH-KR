@@ -126,12 +126,10 @@ def main():
 
 
     args = parser.parse_args()
-    #os.makedirs(args.working)
-    #tokenize_command(args)
-    #subword(args)
-    #apply_subword(args)
-    #word2vec(args)
-    #vecmap(args)
+    subword(args)
+    apply_subword(args)
+    word2vec(args)
+    vecmap(args)
     undreamt(args)
 
 if __name__ == '__main__':
